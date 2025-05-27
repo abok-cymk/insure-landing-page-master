@@ -56,6 +56,7 @@ function Navbar() {
           </li>
         </ul>
         <button
+        type="button"
           className="flex sm:hidden lg:hidden relative"
           aria-label={menuOpen ? "Close Mobile Menu" : "Open Mobile Menu"}
           onClick={toggleMenu}
