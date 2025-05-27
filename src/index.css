@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-dmSerifDisplay: "DM Serif Display", serif;
+  --font-weight-dSD400: 400;
+  --font-karla: "Karla", sans-serif;
+  --font-weight-k400: 400;
+  --font-weight-k700: 700;
+  --color-Blue-950: hsl(256, 26%, 20%);
+  --color-Blue-500: hsl(216, 30%, 68%);
+
+  --color-Gray-950: hsl(270, 9%, 17%);
+  --color-Gray-700: hsl(273, 4%, 51%);
+  --color-Gray-50: hsl(0, 0%, 98%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-dmSerifDisplay font-dSD400;
+}
+
+p, ul, button, span {
+    @apply font-karla;
+}
