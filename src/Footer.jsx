@@ -54,7 +54,7 @@ const Footer = () => {
                   <li key={item}>
                     <a
                       href="#"
-                      className="uppercase text-Gray-950 text-sm font-bold hover:underline"
+                      className="uppercase text-Gray-950 text-sm font-k700 hover:underline"
                     >
                       {item}
                     </a>
