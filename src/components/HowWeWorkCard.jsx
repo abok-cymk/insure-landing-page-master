@@ -8,7 +8,7 @@ const HowWeWorkCard = ({ icon, howWeWork, body }) => {
         <h3 className="tracking-tight font-medium text-2xl text-Gray-950 my-2">
           {howWeWork}
         </h3>
-        <p className="text-base/6 font-k400 text-Gray-700">{body}</p>
+        <p className="text-base/6 font-k400 text-Gray-700 text-balance">{body}</p>
       </div>
     </div>
   );

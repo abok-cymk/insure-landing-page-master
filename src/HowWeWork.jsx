@@ -21,7 +21,7 @@ const works = [
 
 const HowWeWork = () => {
   return (
-  <section className="max-w-6xl mx-auto relative sm:px-10 lg:px-0 mt-28 sm:mt-32 lg:mt-48 mb-8">
+  <section className="max-w-6xl mx-auto relative sm:px-10 lg:px-0 mt-36 sm:mt-48 lg:mt-52 mb-8">
     <Line className="-top-10 max-sm:left-1/2 max-sm:-translate-x-1/2"/>
     <h2 className="text-4xl sm:text-6xl lg:text-7xl text-center sm:text-left lg:text-left">We're different</h2>
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-10">
