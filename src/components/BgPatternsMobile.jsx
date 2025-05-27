@@ -4,7 +4,7 @@ const BgPatternsMobile = () => {
   return (
     <>
       {/* Right pattern */}
-      <picture className="lg:hidden block absolute -bottom-70 right-0 z-0">
+      <picture className="lg:hidden block absolute -bottom-50 right-0 z-0">
         <source
           media="(min-width: 939px)"
           srcSet="/bg-pattern-intro-right-desktop.svg"
@@ -16,7 +16,7 @@ const BgPatternsMobile = () => {
         <img
           src="/bg-pattern-intro-right-desktop.svg"
           alt=""
-          className="h-[26em]"
+          className="h-[18em]"
         />
       </picture>
 

@@ -51,7 +51,7 @@ function Navbar() {
           <li>
             <Button
               text="view plans"
-              className="hover:bg-Gray-950 hover:text-Gray-50 transition duration-300 py-1 text-sm/6"
+              className="hover:bg-Gray-950 hover:text-Gray-50 py-1 text-sm/6"
             />
           </li>
         </ul>
