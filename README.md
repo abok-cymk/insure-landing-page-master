@@ -23,12 +23,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot-insure.jpeg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://github.com/abok-cymk/insure-landing-page-master)
+- Live Site URL: [live site URL](https://insure-landing-page-master-git-main-allan-aboks-projects.vercel.app/)
 
 ### Built with
 
