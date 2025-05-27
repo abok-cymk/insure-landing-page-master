@@ -68,26 +68,29 @@ function Navbar() {
           )}
         </button>
         {menuOpen && (
-          <div className="bg-[url('/bg-pattern-mobile-nav.svg')] bg-bottom bg-no-repeat absolute z-100 top-16 left-0 bottom-0 w-full h-screen bg-Gray-950 text-center py-10 px-8 text-lg overflow-hidden">
+          <div
+            ref={menuRef}
+            className="bg-[url('/bg-pattern-mobile-nav.svg')] bg-bottom bg-no-repeat absolute z-100 top-16 left-0 bottom-0 w-full h-screen bg-Gray-950 text-center py-10 px-8 text-lg overflow-hidden"
+          >
             <ul className="flex flex-col justify-center gap-8 items-center">
               <li className="uppercase text-Gray-50 font-medium hover:text-Gray-700">
-                <a href="#" ref={menuRef}>
+                <a href="#" onClick={() => setMenuOpen(false)}>
                   how we work
                 </a>
               </li>
               <li className="uppercase text-Gray-50 font-medium hover:text-Gray-700">
-                <a href="#" ref={menuRef}>
+                <a href="#" onClick={() => setMenuOpen(false)}>
                   blog
                 </a>
               </li>
               <li className="uppercase text-Gray-50 font-medium hover:text-Gray-700">
-                <a href="#" ref={menuRef}>
+                <a href="#" onClick={() => setMenuOpen(false)}>
                   account
                 </a>
               </li>
               <li>
                 <Button
-                  ref={menuRef}
+                  onClick={() => setMenuOpen(false)}
                   text="view plans"
                   className="shrink-0 border-Gray-50 py-2 text-lg font-medium text-Gray-50"
                 />
