@@ -25,6 +25,6 @@ h6 {
   @apply font-dmSerifDisplay font-dSD400;
 }
 
-p, ul, button, span {
+p, ul, button, span, code {
     @apply font-karla;
 }

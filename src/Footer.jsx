@@ -1,6 +1,6 @@
 import { FaPinterest } from "react-icons/fa";
 import { FaSquareFacebook } from "react-icons/fa6";
-import { FiInstagram, FiTwitter } from "react-icons/fi";
+import { FiGithub, FiInstagram, FiTwitter } from "react-icons/fi";
 
 const companyItems = {
   "our company": ["how we work", "why insure?", "view plans", "reviews"],
@@ -30,20 +30,32 @@ const Footer = () => {
           </a>
           <ul className="flex gap-5 sm:ml-auto pt-6">
             <li>
-              <FaSquareFacebook size={28} className="text-Gray-700 hover:text-Gray-950 transition-colors duration-500 cursor-pointer"/>
+              <FaSquareFacebook
+                size={28}
+                className="text-Gray-700 hover:text-Gray-950 transition-colors duration-500 cursor-pointer"
+              />
             </li>
             <li>
-              <FiTwitter size={28} className="text-Gray-700 hover:text-Gray-950 transition-colors duration-500 cursor-pointer"/>
+              <FiTwitter
+                size={28}
+                className="text-Gray-700 hover:text-Gray-950 transition-colors duration-500 cursor-pointer"
+              />
             </li>
             <li>
-              <FaPinterest size={28} className="text-Gray-700 hover:text-Gray-950 transition-colors duration-500 cursor-pointer"/>
+              <FaPinterest
+                size={28}
+                className="text-Gray-700 hover:text-Gray-950 transition-colors duration-500 cursor-pointer"
+              />
             </li>
             <li>
-              <FiInstagram size={28} className="text-Gray-700 hover:text-Gray-950 transition-colors duration-500 cursor-pointer"/>
+              <FiInstagram
+                size={28}
+                className="text-Gray-700 hover:text-Gray-950 transition-colors duration-500 cursor-pointer"
+              />
             </li>
           </ul>
         </div>
-        <div className="z-70 grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 text-center sm:text-left lg:text-left pt-4">
+        <div className="z-70 grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 text-center sm:text-left lg:text-left pt-4 pb-6">
           {Object.entries(companyItems).map(([title, items]) => (
             <div key={title} className="pt-6">
               <p className="uppercase text-Gray-700 font-k700 text-sm tracking-widest mb-6">
@@ -64,6 +76,13 @@ const Footer = () => {
             </div>
           ))}
         </div>
+        <code className="flex flex-wrap items-center justify-center text-sm/7 font-k700 text-Gray-700 pt-4">
+          Challenge by{" "}
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" className="ml-2 underline underline-offset-4 text-Blue-500">
+            Frontend Mentor
+          </a>
+          . Coded by <a href="https://github.com/abok-cymk" className="flex items-center gap-1 underline underline-offset-4 text-Blue-500"><FiGithub size={16} className="hover:text-Blue-950 transition-colors duration-200 ml-2"/> <span>abok-cymk</span></a>.
+        </code>
       </div>
     </footer>
   );

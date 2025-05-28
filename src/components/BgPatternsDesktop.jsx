@@ -18,7 +18,7 @@ const BgPatternsDesktop = () => {
         />
       </picture>
 
-      {/* Left pattern - Adding the left pattern that was missing */}
+      {/* Left pattern */}
       <picture className="hidden lg:block absolute left-0 bottom-0 z-0 -mb-50">
         <source
           media="(min-width: 939px)"

@@ -20,7 +20,7 @@ const BgPatternsMobile = () => {
         />
       </picture>
 
-      {/* Left pattern - Adding the left pattern that was missing */}
+      {/* Left pattern */}
       <picture className="lg:hidden block absolute left-0 bottom-50 right-40 z-0">
         <source
           media="(min-width: 939px)"
